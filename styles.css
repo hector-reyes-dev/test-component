@@ -1,0 +1,121 @@
+body {
+  max-width: 100%;
+  max-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  padding: 2rem;
+}
+
+.lct_widget_rating-card {
+  margin-bottom: 30px;
+  padding-top: 25px;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.card-body {
+  position: relative;
+  background: #083a74;
+  background: linear-gradient(119.98deg, #083a74 0%, #041d3a 100%);
+  padding: 44px 40px 26px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-avatars {
+  float: left;
+  position: absolute;
+  top: -25px;
+  left: 40px;
+}
+
+.wysiwyg__content img {
+  border-radius: 6px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-avatars span {
+  font-family: inherit;
+  float: left;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #fff;
+  background-color: #207de9;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: -12px;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 11px;
+  text-align: center;
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  font-family: inherit;
+  margin: 0 0 16px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.card-rate {
+  display: flex;
+  align-items: center;
+}
+
+.card-rate-img {
+  margin-right: 20px;
+}
+
+.card-rate-body {
+  flex-grow: 1;
+}
+
+.card-rate-title {
+  font-family: inherit;
+  margin: 0 0 10px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.card-rate-val {
+  font-family: inherit;
+  margin: 0;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  color: #ffd12d;
+  letter-spacing: -0.005em;
+}
+
+.card-link-foot {
+  font-family: inherit;
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 0 0 10px 10px;
+  padding: 16px 16px;
+  background-color: #207de9;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
