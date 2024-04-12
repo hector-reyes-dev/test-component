@@ -4,3 +4,6 @@
 
 ## Ver componente
 [🌐 Aquí](https://hector-reyes-dev.github.io/test-component/)
+
+## Disclaimer
+Proyecto creado con fines educativos, sin fines de lucro. Todas los assets son propiedad de sus autores.
